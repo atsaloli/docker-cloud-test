@@ -1,3 +1,3 @@
 FROM ubuntu:latest
 
-CMD ["/bin/echo hello world from my test container"]
+CMD ["/bin/bash -c 'echo hello world from my test container'"]
